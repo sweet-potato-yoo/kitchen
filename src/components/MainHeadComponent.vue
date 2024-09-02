@@ -1,14 +1,17 @@
 <template>
     <div class="head">
         <HeaderTitle />
+        <HeaderImage />
     </div>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HeaderTitle from './HeaderTitle.vue';
+import HeaderImage from './HeaderImage.vue';
 export default defineComponent({
     components: {
-        HeaderTitle
+        HeaderTitle,
+        HeaderImage
     }
 })
 </script>
